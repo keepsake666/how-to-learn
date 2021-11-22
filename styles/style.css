@@ -69,7 +69,7 @@
 
 .header__square-pic {
   background-color: blue;
-  z-index: 0 ;
+  z-index: 0;
   position: absolute;
   height: 568px;
   width: 568px;
@@ -225,7 +225,7 @@
 
 .kaufman {
   margin: 0;
-  background-color:#1f1f1f ;
+  background-color:#1f1f1f;
   z-index: -2;
   position: relative;
   overflow: hidden;
@@ -272,7 +272,7 @@
 .footer {
   margin: auto;
   min-height: 350px;
-  background-color:#1f1f1f ;
+  background-color:#1f1f1f;
   color: white;
   border-top: 1px solid #1f1f1f;
   border-bottom: 1px solid #1f1f1f;
