@@ -1,7 +1,14 @@
+@keyframes rotation {
+  from {
+  transform: rotate(0deg);
+    }
+    to {
+  transform: rotate(360deg);
+  }
+}
+
 .page {
   min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
   max-width: 1600px;
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
@@ -17,6 +24,7 @@
   background-color: #f2f2f2;
   display: flex;
   position: relative;
+  overflow: hidden;
   /* выше установили ограничения для секции */
 }
 
@@ -69,7 +77,11 @@
   right: 0;
 }
 
-.header__square-pic {
+.rotate {
+  animation: rotation 20s linear infinite;
+}
+
+.header__rotate_square-pic {
   background-color: #2f80ed;
   z-index: 0;
   position: absolute;
@@ -78,7 +90,9 @@
   right: 0;
   top: 64px;
 }
-/* -------------------Content-------------------- */
+
+/* -------------------description-------------------- */
+
 .description {
   margin: 100px 0;
 }
@@ -126,6 +140,56 @@
 
 }
 
+/* -------------------techniques-------------------- */
+.techniques {
+  min-width: 80%;
+  margin: auto;
+}
+
+.cards {
+  width: 920px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.cards__item {
+width: 240px;
+list-style-type: none;
+}
+
+.cards__image {
+  width: 160px;
+  height: 160px;
+  margin: 60px 40px 43px;
+}
+
+.cards__title {
+  margin: 0;
+  text-align: center;
+  font-size: 24px;
+  line-height: 1.15;
+  font-weight: bold;
+}
+
+.cards__description {
+  margin: 16px 0 0;
+  text-align: center;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+}
+/* -------------------video-------------------- */
+.video__infames {
+}
+
+.video__infame {
+}
+
+/* -------------------oakley-------------------- */
+
+/* -------------------digits-------------------- */
 .digits {
   margin: 0;
 }
@@ -177,6 +241,8 @@
   font-weight: 400;
 }
 
+/* -------------------feynman-------------------- */
+
 .feynman {
   background-color:#f2f2f2;
   background-image:url(../images/feynman.png);
@@ -216,6 +282,10 @@
   font-weight: 400;
   color: #2f80ed;
 }
+
+/* -------------------khan-------------------- */
+
+/* -------------------kaufman-------------------- */
 
 .kaufman {
   margin: 0;
@@ -264,6 +334,9 @@
   width: 877px;
   height: 877px;
 }
+
+/* -------------------resources-------------------- */
+
 /* -------------------Footer-------------------- */
 .footer {
   min-height: 350px;
