@@ -182,9 +182,14 @@ list-style-type: none;
 }
 /* -------------------video-------------------- */
 .video__infames {
+  display: flex;
+  margin: 50px auto 0;
+  width: 1050px;
 }
 
 .video__infame {
+  margin: auto;
+
 }
 
 /* -------------------oakley-------------------- */
