@@ -183,17 +183,24 @@ list-style-type: none;
 /* -------------------video-------------------- */
 .video__infames {
   display: flex;
-  margin: 50px auto 0;
+  margin: 20px auto 0;
   width: 1050px;
+  height: 316px;
 }
 
 .video__infame {
   margin: auto;
+  height: 316px;
+  transform: translate(0, 30px);
 
 }
 
 /* -------------------oakley-------------------- */
 
+.oakley {
+  background-color:#f2f2f2;
+  padding: 160px 0 100px;
+}
 /* -------------------digits-------------------- */
 .digits {
   margin: 0;
