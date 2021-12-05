@@ -201,6 +201,48 @@ list-style-type: none;
   background-color:#f2f2f2;
   padding: 160px 0 100px;
 }
+
+/* -------------------feynman-------------------- */
+
+.feynman {
+  background-color:#f2f2f2;
+  background-image:url(../images/feynman.png);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: 867px 637px;
+  min-height: 890px;
+  position: relative;
+}
+
+.freynman__title {
+  margin: 0 auto;
+  width: 648px;
+  font-size: 120px;
+  line-height: 1.15;
+  font-weight: 700;
+  text-align: center;
+}
+
+.freynmann__subtitle {
+  padding-top: 70px;
+  font-size: 36px;
+  line-height: 51px;
+  margin: 0;
+  text-align: center;
+  font-weight: 400;
+}
+
+.freynman__link {
+  font-size: 36px;
+  line-height: 51px;
+  text-decoration: none;
+  position: absolute;
+  right: 48px;
+  bottom: 50%;
+  font-weight: 400;
+  color: #2f80ed;
+}
+
 /* -------------------digits-------------------- */
 .digits {
   margin: 0;
@@ -253,49 +295,77 @@ list-style-type: none;
   font-weight: 400;
 }
 
-/* -------------------feynman-------------------- */
-
-.feynman {
-  background-color:#f2f2f2;
-  background-image:url(../images/feynman.png);
-  background-repeat: no-repeat;
-  background-position: bottom left;
-  background-size: 867px 637px;
-  min-height: 890px;
-  position: relative;
-}
-
-.freynman__title {
-  margin: 0 auto;
-  padding-top: 100px;
-  width: 648px;
-  font-size: 120px;
-  line-height: 1.15;
-  font-weight: 700;
-  text-align: center;
-}
-
-.freynmann__subtitle {
-  padding-top: 70px;
-  font-size: 36px;
-  line-height: 51px;
-  margin: 0;
-  text-align: center;
-  font-weight: 400;
-}
-
-.freynman__link {
-  font-size: 36px;
-  line-height: 51px;
-  text-decoration: none;
-  position: absolute;
-  right: 48px;
-  bottom: 50%;
-  font-weight: 400;
-  color: #2f80ed;
-}
 
 /* -------------------khan-------------------- */
+.khan {
+  background-color: #f2f2f2;
+  padding: 105px 0 0 0;
+}
+
+.khan__container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.khan__author {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 42px;
+}
+
+.title {
+  margin: 0;
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 1.15;
+}
+
+.khan__quote {
+  width: 790px;
+  margin: 50px 0 36px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+.khan__quote-author {
+  margin: 0 0 10px;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.15;
+}
+
+.khan__quote-author-subline {
+  margin: 0 0 68px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.15;
+}
+
+.khan__book-container {
+  display: flex;
+}
+
+.khan__book-pic {
+  width: 620px;
+  height: 608px;
+  background-image: url(/images_sprint-2/khan-book.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 48px 0 0;
+}
+
+.khan__buy-link {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 42px;
+  color: #2f80ed;
+  color: #2f80ed;
+  text-decoration: none;
+}
 
 /* -------------------kaufman-------------------- */
 
