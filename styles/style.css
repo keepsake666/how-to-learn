@@ -64,7 +64,7 @@
 
 .link_opacity:hover {
   opacity: 0.3;
-  transition: opacity .33s ease; 
+  transition: opacity .33s ease;
 }
 
 .header__link{
@@ -197,7 +197,6 @@ list-style-type: none;
   margin: auto;
   height: 316px;
   transform: translate(0, 30px);
-
 }
 
 /* -------------------oakley-------------------- */
@@ -219,7 +218,7 @@ list-style-type: none;
   position: relative;
 }
 
-.freynman__title {
+.feynman__title {
   margin: 0 auto;
   width: 648px;
   font-size: 120px;
@@ -228,7 +227,7 @@ list-style-type: none;
   text-align: center;
 }
 
-.freynmann__subtitle {
+.feynmann__subtitle {
   padding-top: 70px;
   font-size: 36px;
   line-height: 51px;
@@ -237,7 +236,7 @@ list-style-type: none;
   font-weight: 400;
 }
 
-.freynman__link {
+.feynman__link {
   font-size: 36px;
   line-height: 51px;
   text-decoration: none;
@@ -321,7 +320,7 @@ list-style-type: none;
   line-height: 42px;
 }
 
-.title {
+.khan__title {
   margin: 0;
   font-size: 60px;
   font-weight: bold;
@@ -357,7 +356,7 @@ list-style-type: none;
 .khan__book-pic {
   width: 620px;
   height: 608px;
-  background-image: url(/images_sprint-2/khan-book.jpg);
+  background-image: url(../images_sprint-2/khan-book.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0 48px 0 0;
@@ -437,7 +436,7 @@ list-style-type: none;
 }
 
 .resources__logo {
-  width: 270px; 
+  width: 270px;
   height: 38px;
 }
 /* -------------------Footer-------------------- */
@@ -498,10 +497,6 @@ list-style-type: none;
   font-size: 18px;
   line-height: 30px;
   font-weight: 400;
-}
-
-.footer__column_content_social {
-
 }
 
 .footer__column-link {
