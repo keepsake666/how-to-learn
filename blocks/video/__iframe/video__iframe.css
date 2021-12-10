@@ -1,5 +1,6 @@
-.video__infame {
+.video__iframe {
   margin: auto;
+  width: 515px;
   height: 316px;
   transform: translate(0, 30px);
   border: none;

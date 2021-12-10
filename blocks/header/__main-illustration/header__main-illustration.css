@@ -1,6 +1,6 @@
 .header__main-illustration {
+  object-fit: cover;
   position: absolute;
-  background-size: cover;
   height: 608px;
   width: 765px;
   z-index: 1;
